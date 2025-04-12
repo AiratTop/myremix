@@ -1,5 +1,5 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "remix-cloudflare-workers-template"
+name = "remix"
 
 main = "./server.ts"
 workers_dev = true
@@ -12,3 +12,6 @@ directory = "./build/client"
 
 [build]
 command = "npm run build"
+
+[observability]
+enabled = true
